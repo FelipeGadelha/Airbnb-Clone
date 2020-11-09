@@ -22,8 +22,6 @@ export default function Routes() {
     
     <NavigationContainer>
       <Header/>
-
-
       <Tab.Navigator initialRouteName = 'Explore'
         //screenOptions={{ headerShown: false }}
         tabBarOptions={{
@@ -68,7 +66,6 @@ export default function Routes() {
                 <Path fill="none" stroke={color} stroke-linejoin="round" stroke-miterlimit="10" stroke-width="8" d="M24.128,36.098 c-1.728-2.14-4.628-6.261-4.628-9.812C19.5,23.371,21.967,21,25,21s5.5,2.371,5.5,5.286c0,3.541-2.9,7.667-4.63,9.811l-0.871,1.08 L24.128,36.098z"/>
                 <Path fill="none" stroke={color} stroke-miterlimit="10" stroke-width="8" d="M36.64,45c-4.837,0-8.851-4.552-10.565-6.495 L25,37.301l-1.074,1.203C22.211,40.448,18.197,45,13.36,45c-4.031,0-7.31-3.271-7.31-7.29c0-0.943,0.261-1.871,0.506-2.666 c0.501-1.598,5.856-12.417,13.323-26.917C20.879,6.168,22.793,5,25,5s4.121,1.168,5.119,3.125 c7.469,14.504,12.824,25.323,13.327,26.925c0.243,0.792,0.504,1.721,0.504,2.661C43.95,41.729,40.671,45,36.64,45z"/>
               </Svg>
-              
             ),
           }}
         />
@@ -89,5 +86,6 @@ export default function Routes() {
       />
     </Tab.Navigator>      
   </NavigationContainer>
+
   );
 }
